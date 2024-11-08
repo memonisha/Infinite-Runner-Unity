@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | FlappyBird2D</title>
+    <title>Unity WebGL Player | 2DInfiniteRunnerGame</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">FlappyBird2D</div>
+        <div id="unity-build-title">2DInfiniteRunnerGame</div>
       </div>
     </div>
     <script>
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/buildrunner.loader.js";
+      var loaderUrl = buildUrl + "/builds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/buildrunner.data.br",
-        frameworkUrl: buildUrl + "/buildrunner.framework.js.br",
-        codeUrl: buildUrl + "/buildrunner.wasm.br",
+        dataUrl: buildUrl + "/builds.data.gz",
+        frameworkUrl: buildUrl + "/builds.framework.js.gz",
+        codeUrl: buildUrl + "/builds.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "FlappyBird2D",
+        productName: "2DInfiniteRunnerGame",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
